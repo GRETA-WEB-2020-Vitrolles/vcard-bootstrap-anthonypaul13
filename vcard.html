@@ -10,51 +10,96 @@
     <link rel="stylesheet" href="./css/all.min.css">
     <title>Hello, world!</title>
     <style>
-      body {
+      header{
         background-image : linear-gradient(rgb(130, 130, 130),rgb(106, 106, 106));
-        background-repeat: no-repeat;
       }
-
-      div{
+      .banner , .button{
         background-image: linear-gradient(rgb(115,169,213),rgb(64, 136, 196));
       }
-
+      .btn:hover{
+        background-image: linear-gradient(rgb(179,208,232),rgb(64, 136, 196));
+      }
       .container{
         max-width: 600px;
       }
-
+      hr{
+        width: 70%;
+      }
       </style>
-
-
   </head>
-  <body class="mt-5">
-      <header class="text-white p-2">
-        <div class="logo container text-center">
+  <body>
+      <header class="text-white">
+        <div class="banner container text-center">
           <img class="mt-4 rounded" src="https://fakeimg.pl/150x150/">
           <h1 class="p-3">anthonypaul.fr</h1>
           <h3>Anthony PAUL</h3>
           <p>Développeur Web</p>
+
           <div class="row text-center border-top border-white">
-            <a href="tel:0786278506" class="p-3 col border-right text-white">
+            <a href="tel:0786278506" class="p-3 col border-right text-white btn">
               <i class="fas fa-phone-alt"></i><br>
               <span class="text-sm text-uppercase">Telephone</span>
             </a>
-            <a href="mailto:paulanthonypro13@gmail.com" class="p-3 col text-white">
+            <a href="mailto:paulanthonypro13@gmail.com" class="p-3 col text-white btn">
               <i class="far fa-envelope"></i><br>
               <span class="text-sm text-uppercase">E-mail</span>
             </a>
           </div>
         </div>
+
       </header>
+
       <main>
-
+        <section class="container bg-white pt-3 pb-3 border-right border-left border-bottom border-black shadow">
+          <div class="row align-items-center">
+            <span class="col-1"><i class="fa-2x fas fa-info-circle"></i></span>
+            <div class="col-6">
+              <span>Développeur web et web mobile</span>
+              <span>Formation avec le GRETA PROVENCE</span>
+            </div>
+          </div>
+          <hr>
+          <div class="row align-items-center">
+            <span class="col-1"><i class="fa-2x fas fa-phone-alt"></i></span>
+            <div class="col-2">
+              <a href="tel:0786278506">07-86-27-85-06</a>
+              <span>Téléphone</span>
+            </div>
+          </div>
+          <hr>
+          <div class="row align-items-center">
+            <span class="col-1"><i class="fa-2x far fa-envelope"></i></span>
+            <div class="col-2">
+              <a href="mailto:paulanthonypro13@gmail.com">paulanthonypro13@gmail.com</a>
+              <span>email</span>
+            </div>
+          </div>
+          <hr>
+          <div class="row align-items-center">
+            <span class="col-1"><i class="fa-2x fas fa-map-marker-alt"></i></span>
+            <span class="col-3">Rognac</span>
+          </div>
+            <hr>
+          <div class="row align-items-center">
+            <span class="col-1"><i class="fa-2x fas fa-globe"></i></span>
+            <div class="col-3">
+              <a href="http://anthonypaul.fr">www.anthonypaul.fr</a>
+              <span>Site internet</span>
+            </div>
+          </div>
+          <hr>
+          <div class="row align-items-center pb-3">
+            <span class="col-1"><i class="fa-2x fab fa-battle-net"></i></span>
+            <span class="col-3">Réseaux sociaux</span>
+          </div>
+          <div class="align-items-center justify-content-center text-center row pb-2">
+            <a class="col-2" href="#"><i class="fa-2x fab fa-facebook-square"></i></a>
+            <a class="col-2" href="#"><i class="fa-2x fab fa-twitter-square"></i></a>
+            <a class="col-2" href="#"><i class="fa-2x fab fa-google-plus-square"></i></a>
+            <a class="col-2" href="#"><i class="fa-2x fas fa-globe"></i></a>
+          </div>
+        </section>
       </main>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <footer>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </footer>
-
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
